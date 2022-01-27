@@ -1,0 +1,98 @@
+.scarousal{
+  /*margin-right:30px ;
+  margin-top: 30px;
+  margin-bottom: 30px;*/
+  margin: auto;
+  padding:0px;
+  width: 90vw;
+  margin-left: 50px;
+  
+  
+  
+   /* border: red solid; */
+}
+.scarousal 
+.scarousal img{
+ margin-left: 10%;
+ display: inline-block;
+ 
+}
+.scarousal h2{
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+
+}
+@keyframes flicker {
+  
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px rgb(216, 13, 148),
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+.scarousal button{
+  color: red;
+}
+
+.slick-next:before
+{
+  font-size: 40px;
+}
+.slick-prev:before
+{
+  font-size: 40px;
+}
+
+/*
+@media only screen and (min-width: 768px) {
+ 
+  .slick-next:before
+{
+  font-size: 30px;
+}
+.slick-prev:before
+{
+  font-size: 30px;
+}
+}
+
+*/
+/* Large devices (laptops/desktops, 992px and up) */
+/*
+@media only screen and (min-width: 992px) {
+  
+  .slick-next:before
+  {
+    font-size: 20px;
+  }
+  .slick-prev:before
+  {
+    font-size: 20px;
+  }
+}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*
+@media only screen and (min-width: 1200px) {
+ 
+  .slick-next:before
+  {
+    font-size: 10px;
+  }
+  .slick-prev:before
+  {
+    font-size: 10px;
+  }
+}*/
